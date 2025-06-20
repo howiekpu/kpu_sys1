@@ -1,0 +1,32 @@
+<!-- res/layout/dialog_schedule.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event"
+        android:inputType="text" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_paid_10dp"/>
+
+
+</LinearLayout>

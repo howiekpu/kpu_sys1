@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="7dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="JAN"
+        android:background="@drawable/shape_date_month"/>
+
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#6bd5a1"
+            android:text="23\nPresent"
+            android:background="@drawable/shape_present_10dp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#fd4471"
+            android:text="3\nAbsent"
+            android:background="@drawable/shape_absent_10dp"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#6768ae"
+            android:text="0\nleave"
+            android:background="@drawable/shape_leave_10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

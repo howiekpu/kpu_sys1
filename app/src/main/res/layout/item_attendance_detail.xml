@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="15dp"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="20"
+        android:layout_centerInParent="true"
+        android:textColor="#c5c7ce"/>
+</LinearLayout>
